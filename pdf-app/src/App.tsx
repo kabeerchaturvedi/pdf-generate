@@ -1,8 +1,11 @@
 
 import "./App.css";
+import Invoice from "./components/invoice";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <Invoice/>
+  )
 }
 
 export default App;
